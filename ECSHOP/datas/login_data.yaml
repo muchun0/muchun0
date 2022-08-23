@@ -1,0 +1,10 @@
+case1:
+  title: '正确的用户名密码'
+  username: 'muchun'
+  password: 'yue_426983'
+  expect: 'muchun'
+case2:
+  title: '正确的用户名,错误的密码'
+  username: 'muchun'
+  password: 'yue426983'
+  expect: '登录'

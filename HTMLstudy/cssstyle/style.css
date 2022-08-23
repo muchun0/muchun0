@@ -1,0 +1,43 @@
+#icon{
+    height: 100px;
+    /*width: 100px;*/
+    border: 3px black;
+    border-radius: 50px;
+    /*margin: 0;*/
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 200px 8px 8px 8px;
+    text-align: center;
+}
+#icon:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+#intro{
+    text-align: center;
+    margin: 70px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 0 150px 0 0;
+
+}

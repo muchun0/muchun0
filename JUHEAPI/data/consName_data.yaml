@@ -1,0 +1,28 @@
+case1:
+  title: '输入全部正确的参数'
+  data:
+    key: 'f662bbcb64d77fe776657851ce49d5d8'
+    consName: '金牛座'
+    type: 'today'
+  expect: 0
+case2:
+  title: 'key输入空值'
+  data:
+    key: ''
+    consName: '金牛座'
+    type: 'today'
+  expect: 10001
+case3:
+  title: '输入不存在的星座名'
+  data:
+    key: 'f662bbcb64d77fe776657851ce49d5d8'
+    consName: '天马流星拳'
+    type: 'today'
+  expect: 205802
+case4:
+  title: '输入不存在的运势类型'
+  data:
+    key: 'f662bbcb64d77fe776657851ce49d5d8'
+    consName: '金牛座'
+    type: 'nextyear'
+  expect: 205801

@@ -1,0 +1,22 @@
+# -表示数据为列表格式
+- testCase: 1
+  title: '正确的参数值'
+  data:
+    key: 'f662bbcb64d77fe776657851ce49d5d8'
+    consName: '金牛座'
+    type: 'today'
+  expect: 0
+- testCase: 2
+  title: '星座参数值为空'
+  data:
+    key: 'f662bbcb64d77fe776657851ce49d5d8'
+    consName: ''
+    type: 'today'
+  expect: 205802
+- testCase: 3
+  title: 'key参数值为空'
+  data:
+    key: ''
+    consName: '金牛座'
+    type: 'today'
+  expect: 10001

@@ -1,0 +1,9 @@
+testCase_1 (testCase.phone.TestPhone)
+传入正确的参数 ... ok
+testCase_2 (testCase.phone.TestPhone)
+只传入key参数 ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.447s
+
+OK

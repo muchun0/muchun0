@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>弹窗</title>
+</head>
+<body>
+    <h2>JavaScript中有三种消息框</h2>
+    <h3>1.警告框：警告框经常用于确保用户可以得到某些信息。当警告框出现后，用户需要点击确定按钮才能继续进行操作。</h3>
+    <input id="buttonA" type="button" onclick="myAlert()" value="警告框">
+    <h3>2.确认框：确认框通常用于验证是否接受用户操作。当确认卡弹出时，用户可以点击 "确认" 或者 "取消" 来确定用户操作。</h3>
+    <input id="buttonB" type="button" onclick="myConfirm()" value="确认框"><p id="confirm_demo" style="color: red"></p>
+    <h3>3.提示框：提示框经常用于提示用户在进入页面前输入某个值。当提示框出现后，用户需要输入某个值，然后点击确认或取消按钮才能继续操纵。</h3>
+    <input id="buttonC" type="button" onclick="myPrompt()" value="提示框"><p id="prompt_demo" style="color: red"></p>
+    <script>
+        function myAlert() {
+            alert("你好，我是一个警告框！");
+        }
+
+        function myConfirm(){
+            var x;
+            var r=confirm("你好，我是一个确认框！");
+            if (r==true){
+                x="你按下了\"确定\"按钮!";
+            }
+            else{
+                x="你按下了\"取消\"按钮!";
+            }
+            document.getElementById("confirm_demo").innerHTML=x;
+        }
+
+        function myPrompt(){
+            var x;
+            var person=prompt("你好，我是一个提示框！");
+            if (person!=null && person!=""){
+                x="你输入的内容是：" + person
+                document.getElementById("prompt_demo").innerHTML=x;
+            }
+        }
+    </script>
+</body>
+</html>

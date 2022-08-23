@@ -1,0 +1,12 @@
+case1:
+  title: '传入正确的参数'
+  data:
+    phone: 1346648
+    key: '1d1afbe9b7665ce478518bb0978ef48e'
+  expect: 0
+case2:
+  title: '缺少参数phone'
+  data:
+    phone: null
+    key: '1d1afbe9b7665ce478518bb0978ef48e'
+  expect: 201101

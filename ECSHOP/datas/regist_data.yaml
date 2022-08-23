@@ -1,0 +1,16 @@
+- case: 1
+  title: '正确的输入内容'
+  username: 'bless'
+  email: '3213214@qq.com'
+  password: 123456
+  conform_password: 123456
+  phone: 123456
+  expect: 'lehei'
+- case: 2
+  title: '已注册的用户名'
+  username: 'lehei'
+  email: '32132184@qq.com'
+  password: 123456
+  conform_password: 123456
+  phone: 123456
+  expect: '登录'

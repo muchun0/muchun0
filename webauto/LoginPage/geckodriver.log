@@ -1,0 +1,200 @@
+1622211011296	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\11203\\AppData\\Local\\Temp\\rust_mozprofile.kckLblOGHKSD"
+1622211011625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1622211011625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1622211011709	Marionette	TRACE	Received observer notification profile-after-change
+1622211011783	Marionette	TRACE	Received observer notification toplevel-window-ready
+1622211011812	Marionette	TRACE	Received observer notification command-line-startup
+1622211011813	Marionette	TRACE	Received observer notification nsPref:changed
+1622211011813	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1622211011905	Marionette	TRACE	Received observer notification toplevel-window-ready
+1622211012695	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1622211012695	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1622211012756	Marionette	TRACE	All scripts recorded.
+1622211012756	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1622211012756	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1622211012756	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1622211012756	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1622211012756	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1622211012757	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1622211012757	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1622211012757	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1622211012758	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1622211012758	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1622211012758	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1622211012758	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1622211012758	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1622211012758	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1622211012758	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1622211012758	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1622211012758	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1622211012758	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1622211012758	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1622211012758	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1622211012758	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1622211012784	Marionette	INFO	Listening on port 59307
+1622211012784	Marionette	DEBUG	Remote service is active
+1622211012819	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59308
+1622211012823	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1622211012823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622211012851	Marionette	TRACE	[6442450945] Frame script loaded
+1622211012852	Marionette	TRACE	[6442450945] Frame script registered
+1622211012854	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2d7e6623-bc9e-4cba-aafe-1202e5e87282","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.kckLblOGHKSD","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1622211012881	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1622211013152	Marionette	DEBUG	0 <- [1,2,null,{"x":-8,"y":-8,"width":1936,"height":1056,"state":"maximized"}]
+1622211013154	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.baidu.com/"}]
+1622211013159	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
+1622211013310	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
+1622211013571	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1622211013622	Marionette	TRACE	[6442450945] Received DOM event pageshow for https://www.baidu.com/
+1622211013622	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1622211013635	Marionette	DEBUG	Closed connection 0
+[Parent 15788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1622211039564	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1622211039564	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1622211039565	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1622211039566	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1622211039566	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1622211039566	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1622211039566	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1622211039566	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1622211039566	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1622211039566	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1622211039566	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1622211039566	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1622211039567	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1622211039567	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1622211039567	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1622211039567	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1622211039567	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1622211039567	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1622211039567	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1622211039567	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1622211039567	Marionette	INFO	Stopped listening on port 59307
+1622211039567	Marionette	DEBUG	Remote service is inactive
+[GPU 14984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1622211079252	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\11203\\AppData\\Local\\Temp\\rust_mozprofile.yst7lKAbBOvl"
+1622211079567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1622211079567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1622211079654	Marionette	TRACE	Received observer notification profile-after-change
+1622211079718	Marionette	TRACE	Received observer notification toplevel-window-ready
+1622211079747	Marionette	TRACE	Received observer notification command-line-startup
+1622211079747	Marionette	TRACE	Received observer notification nsPref:changed
+1622211079747	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1622211079838	Marionette	TRACE	Received observer notification toplevel-window-ready
+1622211080532	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1622211080533	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1622211080629	Marionette	TRACE	All scripts recorded.
+1622211080629	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1622211080630	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1622211080631	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1622211080631	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1622211080631	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1622211080631	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1622211080631	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1622211080631	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1622211080631	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1622211080631	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1622211080631	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1622211080631	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1622211080631	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1622211080631	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1622211080631	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1622211080632	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1622211080632	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1622211080632	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1622211080632	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1622211080657	Marionette	INFO	Listening on port 59384
+1622211080657	Marionette	DEBUG	Remote service is active
+1622211080794	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59385
+1622211080796	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1622211080797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622211080824	Marionette	TRACE	[6442450945] Frame script loaded
+1622211080825	Marionette	TRACE	[6442450945] Frame script registered
+1622211080828	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"1785aedd-aaaf-4932-9776-fdb31e64808d","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.yst7lKAbBOvl","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1622211080851	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1622211081146	Marionette	DEBUG	0 <- [1,2,null,{"x":-8,"y":-8,"width":1936,"height":1056,"state":"maximized"}]
+1622211081148	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.baidu.com/"}]
+1622211081153	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
+1622211081304	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
+1622211081572	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1622211081636	Marionette	TRACE	[6442450945] Received DOM event pageshow for https://www.baidu.com/
+1622211081637	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1622211081639	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kw\"]"}]
+1622211081641	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"13788360-3020-4241-b5b7-dc5bb4a286dd"}}]
+1622211081643	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"13788360-3020-4241-b5b7-dc5bb4a286dd","text":"hello","value":["h","e","l","l","o"]}]
+1622211081698	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1622211083711	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"su\"]"}]
+1622211083714	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"525b6dde-0ff9-4a12-b48a-f67367f0a82a"}}]
+1622211083715	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClick",{"id":"525b6dde-0ff9-4a12-b48a-f67367f0a82a"}]
+1622211083940	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1622211083941	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1622211088970	Marionette	DEBUG	0 -> [0,8,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1622211088970	Marionette	INFO	Stopped listening on port 59384
+1622211089010	Marionette	DEBUG	0 <- [1,8,null,{"cause":"shutdown"}]
+1622211089032	Marionette	DEBUG	0 -> [0,9,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1622211089033	Marionette	DEBUG	0 <- [1,9,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDriver ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1622211089039	Marionette	DEBUG	Closed connection 0
+[Parent 20204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1622211089182	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1622211089182	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1622211089182	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1622211089182	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1622211089182	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1622211089183	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1622211089183	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1622211089184	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1622211089184	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1622211089184	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1622211089184	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1622211089184	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1622211089184	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1622211089184	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1622211089184	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1622211089184	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1622211089184	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1622211089184	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1622211089184	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1622211089184	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1622211089184	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1622211089185	Marionette	DEBUG	Remote service is inactive
+[GPU 788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
