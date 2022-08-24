@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fbe8e2a-5d15-421c-abb9-ab36f774ff67" name="Default Changelist" comment="" />
+    <list default="true" id="2fbe8e2a-5d15-421c-abb9-ab36f774ff67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/pic/geckodriver.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1yyqgbTH9sMSoX56PFrs6wNH4c9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -241,6 +250,7 @@
       <workItem from="1657439832207" duration="723000" />
       <workItem from="1657812600552" duration="626000" />
       <workItem from="1658332302096" duration="53000" />
+      <workItem from="1661264192300" duration="2782000" />
     </task>
     <servers />
   </component>
@@ -252,22 +262,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657028399506" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1657817395973">
+    <state width="1189" height="295" key="GridCell.Tab.0.bottom" timestamp="1661269565929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1657817395973" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1657817395973">
+    <state width="1189" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1661269565929" />
+    <state width="1189" height="295" key="GridCell.Tab.0.center" timestamp="1661269565929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1657817395973" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1657817395973">
+    <state width="1189" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1661269565929" />
+    <state width="1189" height="295" key="GridCell.Tab.0.left" timestamp="1661269565929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1657817395973" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1657817395973">
+    <state width="1189" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1661269565929" />
+    <state width="1189" height="295" key="GridCell.Tab.0.right" timestamp="1661269565929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1657817395973" />
+    <state width="1189" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1661269565929" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1653841669742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,7 +310,7 @@
     <SUITE FILE_PATH="coverage/se$handle.coverage" NAME="handle Coverage Results" MODIFIED="1635261256087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pic" />
     <SUITE FILE_PATH="coverage/se$get_hot.coverage" NAME="get_hot Coverage Results" MODIFIED="1633585533916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pic" />
     <SUITE FILE_PATH="coverage/se$hushen.coverage" NAME="hushen Coverage Results" MODIFIED="1657812616731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pic" />
-    <SUITE FILE_PATH="coverage/se$Unittests_in_tt_py.coverage" NAME="Unittests in tt.py Coverage Results" MODIFIED="1657812628403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pic" />
+    <SUITE FILE_PATH="coverage/se$Unittests_in_tt_py.coverage" NAME="Unittests in tt.py Coverage Results" MODIFIED="1661265241037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pic" />
     <SUITE FILE_PATH="coverage/se$debug.coverage" NAME="debug Coverage Results" MODIFIED="1633604812777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basepage" />
   </component>
 </project>
