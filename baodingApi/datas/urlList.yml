@@ -1,0 +1,3 @@
+url:
+ createCarType: 'http://chehou-beta.yichehuoban.cn/sassbasic/api/serialV2/list'
+ createCarTypeListPage: 'http://chehou-beta.yichehuoban.cn/sassbasic/api/serialV2/pageList'

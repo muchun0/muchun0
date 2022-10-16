@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8426399a-d7e1-4c60-8d6d-199976d4ae24" name="Default Changelist" comment="" />
+    <list default="true" id="8426399a-d7e1-4c60-8d6d-199976d4ae24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/GetJob.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetJob/getTestJob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../se/.idea/se.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1t9YmHBMG3IEmrXFufoZk70MdwC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -178,6 +193,9 @@
       <workItem from="1651755124255" duration="431000" />
       <workItem from="1653828987304" duration="2280000" />
       <workItem from="1654254330028" duration="61000" />
+      <workItem from="1661785966253" duration="345000" />
+      <workItem from="1661786322207" duration="648000" />
+      <workItem from="1662791921005" duration="61000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,18 @@
+case1:
+ brandName: "北京奔驰"
+ carSerialType: "0"
+ cbId: 10075
+ masterBrandId: "2"
+ saleState: "1"
+ masterBrandName: "奔驰"
+ serialId: 1987
+ soure: "车后"
+case2:
+ brandName: "北京奔驰"
+ carSerialType: "0"
+ cbId: 10075
+ masterBrandId: "2"
+ saleState: "1"
+ masterBrandName: "奔驰"
+ serialId: 1987
+ soure: "车后"
