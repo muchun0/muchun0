@@ -1,6 +1,12 @@
 # This Python file uses the following encoding: utf-8
+import sys
+import datetime
 import requests
 import json
+import logging
+import os
+fileName = os.path.dirname(os.path.abspath(__file__)) + '\\' + str(datetime.date.today()) + '.log'
+logging.basicConfig(filename=fileName,level=logging.INFO)
 
 url = 'https://welm.weixin.qq.com/v1/completions'
 
@@ -41,6 +47,7 @@ def AutoReply(prompt=None,model="xl",max_tokens=16,temperature=0.0,top_p=0.0,top
     try:
         res = requests.post(url=url, headers=headers, json=body).json()['choices'][0]['text']
     except:
+        logging.error(requests.post(url=url, headers=headers, json=body))
         res = "请求出错啦，要排查下"
 
     return res
@@ -52,7 +59,8 @@ def writeDialogue(text):
 def readDialogue():
     with open('D:\python\WechatAutoReply\dialogueContent.txt','r',encoding='utf-8') as f:
         return f.read()
+def closeProject():
+    sys.exit(0)
 if __name__ == '__main__':
     res = AutoReply('锦瑟无端五十弦')
     print(res)
-
